@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header section start -->
+    <header class="header">
+    <a href="#" class="logo"><i class="fas fa-shopping-basket">IntHome</i></a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#decor">Decor</a>
+        <a href="#kitchen&dining">Kitchen & Dining</a>
+        <a href="#lighting">Lighting</a>
+        <a href="#bathdecor">Bath Decor</a>
+        <a href="#furniture">Furniture</a> 
+        <a href="#review">Reviews</a> 
+    </nav>
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here .....">
+        <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <img src="wall_dec.jpg" alt="">
+                <i class="fas fa-trash"></i>
+                <div class="content">
+                    <h3>Wall decor</h3>
+                    <span class="price">$30/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <img src="mirror.jpg" alt="">
+                <i class="fas fa-trash"></i>
+                <div class="content">
+                    <h3>Mirror</h3>
+                    <span class="price">$40/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <img src="vase.jpg" alt="">
+                <i class="fas fa-trash"></i>
+                <div class="content">
+                    <h3>Vases</h3>
+                    <span class="price">$50/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total">total: $120/-</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>Login now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <p>forget your password <a href="#">Click here</a> </p>
+            <p>don't have an account<a href="register.html">Create now</a> </p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+</header>
+<!-- header section ends -->
+
+<!-- home section starts -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Vintage<span>Interiors</span></h3>
+        <p>Your home should tell the story of who you are 
+            and be a collection of what you love</p>
+            <a href="#" class="btn"> Shop now</a>
+    </div>
+</section>
+<!-- feature section starts -->
+<!-- feature section ends -->
+<section class="decor" id="decor">
+    <h1 class="heading">Our<span>Decors</span> </h1>
+    <div class="swiper decor-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="vase.jpg" alt="">
+                <h3>Vases</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="plate.jpg" alt="">
+                <h3>Plates</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="bird.jpg" alt="">
+                <h3>Bird figurines</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="tabletop.jpg" alt="">
+                <h3>Table Top</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+    
+        </div>
+    </div>
+    <div class="swiper decor-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="book.jpg" alt="">
+                <h3>Bookends</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="photo.jpg" alt="">
+                <h3>Photo Frames</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="candle.jpg" alt="">
+                <h3>Candleware</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="clock.jpg" alt="">
+                <h3>Clocks</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+    
+        </div>
+    </div>
+</section>
+<!-- decor section ends -->
+<!-- kitchen&dining section starts -->
+<section class="decor" id="kitchen&dining">
+    <h1 class="heading">Kitchen &<span>Dining</span> </h1>
+    <div class="swiper decor-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="cakestand.jpg" alt="">
+                <h3>Cake Stand</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="serve.jpg" alt="">
+                <h3>Serveware</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="tray.jpg" alt="">
+                <h3>Tray</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="casserole.jpg" alt="">
+                <h3>Casserole</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+    
+        </div>
+    </div>
+    <div class="swiper decor-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="cakestand2.jpg" alt="">
+                <h3>Cake stand</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="serve2.jpg" alt="">
+                <h3>Serveware</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="tray2.jpeg" alt="">
+                <h3>Tray</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="casserole2.jpg" alt="">
+                <h3>Casserole</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+    
+        </div>
+    </div>
+</section>
+<!-- kitchen&dining ends -->
+
+<!-- Lighting starts -->
+<section class="decor" id="lighting">
+    <h1 class="heading">Our<span>Lighting</span> </h1>
+    <div class="swiper decor-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="lamp.jpg" alt="">
+                <h3>Vases</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="plate.jpg" alt="">
+                <h3>Plates</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="bird.jpg" alt="">
+                <h3>Bird figurines</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="tabletop.jpg" alt="">
+                <h3>Table Top</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+    
+        </div>
+    </div>
+    <div class="swiper decor-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="vase.jpg" alt="">
+                <h3>Vases 1</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="plate.jpg" alt="">
+                <h3>Plates 1</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="bird.jpg" alt="">
+                <h3>Bird figurines 1</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="tabletop.jpg" alt="">
+                <h3>Table Top 1</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+    
+        </div>
+    </div>
+</section>
+<!-- lighting section ends -->
+
+<!-- bath section starts -->
+<section class="decor" id="bathdecor">
+    <h1 class="heading">Our<span>Bath Decors</span> </h1>
+    <div class="swiper decor-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="vase.jpg" alt="">
+                <h3>Vases</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="plate.jpg" alt="">
+                <h3>Plates</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="bird.jpg" alt="">
+                <h3>Bird figurines</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="tabletop.jpg" alt="">
+                <h3>Table Top</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+    
+        </div>
+    </div>
+    <div class="swiper decor-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="vase.jpg" alt="">
+                <h3>Vases 1</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="plate.jpg" alt="">
+                <h3>Plates 1</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="bird.jpg" alt="">
+                <h3>Bird figurines 1</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="tabletop.jpg" alt="">
+                <h3>Table Top 1</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+    
+        </div>
+    </div>
+</section>
+<!-- bath section ends -->
+<!-- furniture section starts -->
+<section class="decor" id="furniture">
+    <h1 class="heading">Our<span>Furniture</span> </h1>
+    <div class="swiper decor-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="vase.jpg" alt="">
+                <h3>Vases</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="plate.jpg" alt="">
+                <h3>Plates</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="bird.jpg" alt="">
+                <h3>Bird figurines</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="tabletop.jpg" alt="">
+                <h3>Table Top</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+    
+        </div>
+    </div>
+    <div class="swiper decor-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="vase.jpg" alt="">
+                <h3>Vases 1</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="plate.jpg" alt="">
+                <h3>Plates 1</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="bird.jpg" alt="">
+                <h3>Bird figurines 1</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="tabletop.jpg" alt="">
+                <h3>Table Top 1</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+    
+        </div>
+    </div>
+</section>
+
+<!-- reviews section start -->
+    <section class="decor" id="review">
+        <h1 class="heading">Customer's<span>Reviews</span> </h1>
+        <div class="swiper decor-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="person1.jpeg" alt="">
+                    <h3>Rohit Saraf</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Really happy to shop here</p>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="woman.jpg" alt="">
+                    <h3>Rani Sharma</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Found good quality products</p>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="man.jpg" alt="">
+                    <h3>Chris</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Got the best products</p>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="girl.jpg" alt="">
+                    <h3>Kriti</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Furniture is really good</p>
+                </div>
+        
+            </div>
+        </div>
+</section>
+
+<!-- footer section start -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>IntHome<i class="fas fa-shopping-basket"></i> </h3>
+            <p>Your home should tell the story of who you are </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+123-456-789</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+123-456-111</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>vinutna_m@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker"></i>Bnaglore, India</a> 
+            
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Decor</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Kitchen&Dining</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Lighting</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Bath Decor</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Furniture</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Reviews</a>
+        </div>
+        <div class="box">
+            <h3>News Letter</h3>
+            <p>Subscribe for Latest Updates</p>
+            <input type="email" placeholder="Your E-mail" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="pay.png" class="payment-img" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- footer section end -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- custom js link -->
+    <script src="script.js"></script>
+</body>
+</html>
